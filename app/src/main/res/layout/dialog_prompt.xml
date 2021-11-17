@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:layout_margin="05dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/dTextView"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        android:text="Write here your Name-"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/meditText"
+        android:layout_width="347dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/componats_design"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="25dp" />
+
+</LinearLayout>
